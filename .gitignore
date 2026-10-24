@@ -1,0 +1,39 @@
+# ---------- 编译产物 ----------
+*.exe
+*.o
+*.obj
+*.dll
+*.a
+*.out
+*.class
+*.test
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---------- IDE ----------
+.vs/
+.idea/
+.metadata/
+*.user
+*.suo
+*.sdf
+ipch/
+
+# ---------- 系统 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------- 敏感信息（仓库是 public，务必确认） ----------
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+config.local.*
